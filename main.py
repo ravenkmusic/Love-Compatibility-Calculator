@@ -16,8 +16,7 @@ name1.count('u') +
 name1.count('e') +
 name1.count('l') +
 name1.count('o') +
-name1.count('v') +
-name1.count('e'))
+name1.count('v'))
 
 print(name1_score)
 
@@ -28,10 +27,11 @@ name2.count('u') +
 name2.count('e') +
 name2.count('l') +
 name2.count('o') +
-name2.count('v') +
-name2.count('e'))
+name2.count('v'))
 
 print(name2_score)
+
+score = (name1_score + name2_score)
 
 if score < 10 or score > 90:
   print(f"Your score is {score}, you go together like coke and mentos.")
