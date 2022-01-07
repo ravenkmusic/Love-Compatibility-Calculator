@@ -30,9 +30,9 @@ lower_name2.count('v'))
 old_score = str(name1_score) + str(name2_score)
 new_score = int(old_score)
 
-if new_score < 10 or new_score > 90:
+if new_score <= 10 or new_score >= 90:
   print(f"Your score is {new_score}, you go together like coke and mentos.")
-if new_score >= 40 and new_score < 50:
+if new_score >= 40 and new_score <= 50:
   print(f"Your score is {new_score}, you are alright together.")
 else:
   print(f"Your score is {new_score}.")
