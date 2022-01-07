@@ -27,11 +27,12 @@ lower_name2.count('l') +
 lower_name2.count('o') +
 lower_name2.count('v'))
 
-score = (name1_score + name2_score)
+old_score = str(name1_score) + str(name2_score)
+new_score = int(old_score)
 
-if score < 10 or score > 90:
-  print(f"Your score is {score}, you go together like coke and mentos.")
-if score >= 40 and score < 50:
-  print(f"Your score is {score}, you are alright together.")
+if new_score < 10 or new_score > 90:
+  print(f"Your score is {new_score}, you go together like coke and mentos.")
+if new_score >= 40 and new_score < 50:
+  print(f"Your score is {new_score}, you are alright together.")
 else:
-  print(f"Your score is {score}.")
+  print(f"Your score is {new_score}.")
